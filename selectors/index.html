@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta  name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+ <body>
+  
+  <p>In these selectors topic we are going to learn simple seletors,Combinatoins,Pseduo selectors all
+    <ul>
+      <li>univerasl Selectors</li>
+      <li>element Selectors</li>
+      <li>id selector</li>
+      <li>class slector</li>
+      <li>Grouping Selectors</li>
+    </ul> 
+  </p>
+  <p>*(star) is used as universal selector means applying to whole body</p>
+  <h1>Tag or elements seletor like h1{color:red;}, h3,p,div</h1>
+  <h2 id="idselector">id seletor example define an id(#) in h2 start inside opening tag example: #idselector{color:green;} </h2>
+  <h3 class="classselector">class seletor example define an class(.) in h3 inside opening tag. Example: .classselectorname{color:blue;}</h3>
+  <h5>grouping selectors</h5>
+  <h6>Grouping selectors</h6>
+  <br>
+  <p>Now we will explore combinator selectors means accessing inside a div elemnt,Here div element is a Parent Element and inside div elements are accessed by using Below Selectors</p>
+  <ul> 
+    <li>Direct Child denoted by greater than Symbol(div>h2)</li>
+    <li>Descend Selector denoted by space (div h3) and descend selectors access by all elements in a parent</li>
+    <li>Adjacent Selectors denoted by (+) and next to it  elements.example= div+h3{}</li>
+    <li>General Selectors denoted by (~)</li>
+  </ul>  
+
+  <br>
+  <div>
+    <h2>This is a direct Child and descend child also to div beacuse it is inside direct div</h2>
+    <p>This is a direct Child and descend child also to div beacuse it is inside direct div even though it is below h2</p>
+    <span>
+      <p>These is a descend selector </p>
+    </span>
+    <p>This is a direct Child and descend child also to div beacuse it is inside direct div even though it is below h2</p>
+    <h2>This is a direct Child and descend child also to div beacuse it is inside direct div</h2>
+  </div>
+  <h3>Adjacent Selector means next to it here h3 is Adjacent seletor to div</h3>
+  <h4>Adjacent Selector means next to it here h3 is Adjacent seletor to h3</h4>
+  <p>My name is madhava learning to become a mern stack developer </p>
+  <p>general siblings like just after Adjacent selector</p>
+  <br>
+
+  <h2>Pseudo class(:)</h2>
+  <p>li*3 how can we add  3 list elements using * and now you can see that general siblings(~) is working after h4 element to all p elements</p>
+  <ul>
+    <li>:any-link(before clicking the link color)</li>
+    <li>:visited(after visited the link color)</li>
+    <li>:hover(just putting mouse on it)</li>
+    <li>There are so many you can explore by just seeing in css styles suggestions</li>
+  </ul>
+  <a href="./index.html">LInking same inde file</a>
+  <button class="btnhover">Submit</button>
+<p>now you can see that general siblings(~) is working after h4 element to all p elements</p>
+
+<br>
+ <h2>Now we are going to explore pseduo elements(::)</h2>
+ <h3 class="firstLetter">When to use pseduo elements, If we want to change only first letter,first line,adding somethig before content and after content etc. We can use pseduo elements.</h3>
+ <p class="pseduoelements">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate ipsam, quaerat cupiditate ullam ad ipsum fuga optio quisquam facere, cum doloremque dolore corrupti reiciendis. Rerum neque omnis minus aperiam.
+ Provident quod incidunt at corrupti laboriosam soluta minima in dolorum repellendus! Deleniti, sit deserunt! Ad, voluptate voluptatum voluptatem quod temporibus eum facere cupiditate, minima fugit ullam omnis non aperiam dolorem?
+ Excepturi, sequi consectetur fugit dignissimos quis, nihil vero perferendis quam doloribus iste molestias velit consequuntur accusantium voluptates culpa. Harum alias tenetur voluptatem saepe, quae debitis nisi possimus minus deleniti doloribus.</p>
+
+ <h3 class="before">In These example we are going to learn. How can we add an content before the h3 tag using pseduoelements styles in css you can check the code in styles.css</h3>
+
+ </body>
+</html>

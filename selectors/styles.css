@@ -1,0 +1,104 @@
+*{
+  background: #222222;
+  color: white;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 50px;
+}
+
+#idselector{
+  color: aqua;
+}
+
+.classselector{
+  color:brown
+}
+
+h5,h6{
+  color: blueviolet;
+}
+
+div>h2 {
+ color: chartreuse;
+ height: 30px;
+}
+
+div p{
+  color: goldenrod;
+  font-size: 25px;
+}
+
+/*div h2{
+  color: blue;
+} These is an just example that we can access all elemtes in div using descend selectors*/
+
+/*div+p{
+  color: indigo;
+} These is an example for there is no  adjacent p element next to div so none is goin to happen */
+
+div+h3{
+  color: indigo;
+  font-size: 20px;
+}
+
+h3+h4{
+  color:cyan;
+}/* we can write how many we want like these*/
+
+h4~p{
+  background-color: red;
+}
+
+a:any-link{
+  
+  color: rgb(230, 17, 17);
+
+}
+
+a:hover{
+  color: rgb(5, 130, 239);
+}
+
+a:visited{
+  color: darkgreen;
+}
+.btnhover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.btnhover:hover{
+  background-color: #110101;
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.firstLetter{
+  font-size: 30px;
+}
+.firstLetter::first-letter{
+  color: chartreuse;
+}
+
+.pseduoelements{
+  color: rgb(2, 30, 30);
+  
+}
+
+.pseduoelements::first-line{
+  background-color:rgb(215, 213, 213) ;
+}
+
+.before::before{
+  content: url("../Images/image1nature.jpg");
+  
+}
+
+.before::after{
+  content:url("../Images/iage2.jpg")
+}
