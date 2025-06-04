@@ -1,0 +1,62 @@
+body{
+  color: white;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.first{
+  background: #c53535;
+  height: 100vh;
+  width: 100%;
+  border: 3px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  border: 2px solid rgb(71, 208, 7);
+  padding: 25px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.Padding{
+  border: 3px solid blue;
+  padding: 50px;
+  width:150px;
+  height: 150px;
+  background-color: blue;
+}
+
+.border{
+  border: 4px solid rgb(28, 197, 59);
+  padding: 75px;
+  width:250px;
+  height: 300px;
+}
+
+.btn{
+  color: blue;
+  padding: 20px;
+  margin: 100px;
+  border: 5px;
+  border-style: dashed;
+  border-radius: 10px;
+}
+
+.btn{
+  margin: 20px 50px 100px 200px; /* Top right bottom left */
+}
+
+.bgimage{
+  background-image: url("../Images/box-model-1.png");
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+} /* the image is repeating so we have to use no repeat style here*/
+
